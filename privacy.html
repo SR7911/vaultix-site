@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — Vaultix</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0D1B2A; color: #E0E0E0; font-family: 'Segoe UI', sans-serif; }
+    header { background: linear-gradient(135deg, #0D1B2A, #1A2F4A); padding: 40px 20px; text-align: center; border-bottom: 1px solid #1E3A5F; }
+    header h1 { font-size: 2rem; color: #4FC3F7; }
+    header p { color: #90CAF9; margin-top: 8px; font-size: 0.95rem; }
+    main { max-width: 760px; margin: 50px auto; padding: 0 20px 60px; }
+    h2 { color: #4FC3F7; font-size: 1.2rem; margin: 36px 0 12px; border-left: 4px solid #0288D1; padding-left: 12px; }
+    p { color: #B0BEC5; line-height: 1.8; font-size: 0.95rem; margin-bottom: 12px; }
+    ul { color: #B0BEC5; line-height: 1.8; font-size: 0.95rem; padding-left: 20px; margin-bottom: 12px; }
+    ul li { margin-bottom: 6px; }
+    .updated { color: #546E7A; font-size: 0.85rem; margin-bottom: 32px; }
+    footer { text-align: center; padding: 30px 20px; border-top: 1px solid #1E3A5F; color: #546E7A; font-size: 0.85rem; }
+    footer a { color: #4FC3F7; text-decoration: none; margin: 0 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🔐 Vaultix</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+  <p class="updated">Last updated: June 2025</p>
+
+  <p>Vaultix is built with privacy as a core principle. This policy explains how the app handles your data.</p>
+
+  <h2>Data Storage</h2>
+  <p>All data you enter into Vaultix — including passwords, cards, notes, bank accounts, and documents — is stored exclusively on your device. We do not operate any servers that collect or store your personal data.</p>
+
+  <h2>Encryption</h2>
+  <p>Your vault database is encrypted using AES-256 via SQLCipher. Your data is protected by your PIN, which is hashed and never stored in plain text.</p>
+
+  <h2>Google Drive Backup</h2>
+  <p>Vaultix offers an optional Google Drive backup feature. This is entirely opt-in and only triggered manually by you. When used:</p>
+  <ul>
+    <li>Your backup file is encrypted before being uploaded</li>
+    <li>Only your own Google Drive storage is used</li>
+    <li>We do not have access to your Google account or Drive files</li>
+  </ul>
+
+  <h2>Google Sign-In</h2>
+  <p>Google Sign-In is used solely to authenticate you with your own Google Drive for backup purposes. We do not access your Gmail, contacts, or any other Google services.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Camera</strong> — Used for card scanning and document scanning only</li>
+    <li><strong>Notifications</strong> — Used for reminders you set within the app</li>
+    <li><strong>Internet</strong> — Used for password breach checking (HaveIBeenPwned) and optional Google Drive backup</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>Vaultix uses the HaveIBeenPwned API to check if your passwords have been exposed in known data breaches. Only a partial hash of your password is sent — your actual password is never transmitted.</p>
+
+  <h2>No Ads or Tracking</h2>
+  <p>Vaultix contains no advertisements, no analytics SDKs, and no user tracking of any kind.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Vaultix is not directed at children under 13 and does not knowingly collect data from children.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any questions about this privacy policy, please open an issue on our GitHub repository.</p>
+</main>
+
+<footer>
+  <p>© 2025 Vaultix. All rights reserved.</p>
+  <p style="margin-top:12px;">
+    <a href="index.html">Home</a>
+    <a href="terms.html">Terms of Service</a>
+  </p>
+</footer>
+
+</body>
+</html>

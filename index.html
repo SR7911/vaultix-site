@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaultix — Secure Personal Vault</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0D1B2A; color: #E0E0E0; font-family: 'Segoe UI', sans-serif; }
+    header {
+      background: linear-gradient(135deg, #0D1B2A, #1A2F4A);
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 1px solid #1E3A5F;
+    }
+    header h1 { font-size: 2.8rem; color: #4FC3F7; letter-spacing: 2px; }
+    header p { margin-top: 12px; font-size: 1.1rem; color: #90CAF9; max-width: 500px; margin-inline: auto; }
+    .badge {
+      display: inline-block;
+      margin-top: 28px;
+      background: #4FC3F7;
+      color: #0D1B2A;
+      padding: 12px 32px;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    section { max-width: 860px; margin: 60px auto; padding: 0 20px; }
+    section h2 { font-size: 1.6rem; color: #4FC3F7; margin-bottom: 28px; border-left: 4px solid #0288D1; padding-left: 14px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: #1A2F4A; border-radius: 16px; padding: 24px; border: 1px solid #1E3A5F; }
+    .card .icon { font-size: 2rem; margin-bottom: 12px; }
+    .card h3 { font-size: 1rem; color: #4FC3F7; margin-bottom: 8px; }
+    .card p { font-size: 0.9rem; color: #90CAF9; line-height: 1.6; }
+    footer { text-align: center; padding: 40px 20px; border-top: 1px solid #1E3A5F; color: #546E7A; font-size: 0.85rem; }
+    footer a { color: #4FC3F7; text-decoration: none; margin: 0 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🔐 Vaultix</h1>
+  <p>Your secure, offline-first personal vault for passwords, cards, notes and documents.</p>
+  <a class="badge" href="https://play.google.com/store/apps/details?id=com.sr.vaultix.app">Get it on Google Play</a>
+</header>
+
+<section>
+  <h2>What You Can Store</h2>
+  <div class="grid">
+    <div class="card"><div class="icon">🔑</div><h3>Passwords</h3><p>Store and manage all your passwords with breach detection powered by HaveIBeenPwned.</p></div>
+    <div class="card"><div class="icon">💳</div><h3>Cards</h3><p>Save your bank cards securely with card scanner support using OCR technology.</p></div>
+    <div class="card"><div class="icon">📝</div><h3>Notes</h3><p>Write secure notes and checklists that never leave your device.</p></div>
+    <div class="card"><div class="icon">🪪</div><h3>Documents</h3><p>Store and scan personal documents with built-in document scanner.</p></div>
+    <div class="card"><div class="icon">🏦</div><h3>Bank Accounts</h3><p>Keep your bank account details safe and accessible only to you.</p></div>
+    <div class="card"><div class="icon">🔔</div><h3>Reminders</h3><p>Set reminders for important tasks and never miss a deadline.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Security Features</h2>
+  <div class="grid">
+    <div class="card"><div class="icon">🛡️</div><h3>AES-256 Encryption</h3><p>Your entire database is encrypted using SQLCipher with AES-256.</p></div>
+    <div class="card"><div class="icon">👆</div><h3>Biometric Auth</h3><p>Unlock with fingerprint or face recognition for quick secure access.</p></div>
+    <div class="card"><div class="icon">📵</div><h3>Offline First</h3><p>No data ever leaves your device. No tracking. No ads. No subscriptions.</p></div>
+    <div class="card"><div class="icon">☁️</div><h3>Cloud Backup</h3><p>Optional encrypted Google Drive backup — only when you choose to.</p></div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Vaultix. All rights reserved.</p>
+  <p style="margin-top:12px;">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </p>
+</footer>
+
+</body>
+</html>
